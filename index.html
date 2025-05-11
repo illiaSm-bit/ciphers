@@ -3,18 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cipher</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container">
-        <textarea name="text" id="ciphertext">adfasd</textarea>
-        <button id="ciphertext-button">encrypt</button>
-        <textarea readonly id="ciphertext-output" ></textarea>
+
+    <footer>
+        <div class="footer">
+        <a class="footer-logo" href="#">Cryptex</a>
+        <h2 class="footer-text">Online Encryptor</h1>
+        </div>
+    </footer>
+
+<main>
+
+<div class="main-content">
+    <div class="description">
+        
+        <h1 class="description-h1">
+            <img class="cesar" src="/pngtree-julius-caesar-vintage-png-image_16006975.png" height="50">
+            Caesar cipher
+        </h1>
+       
+        <p class="description-p">Caesar Cipher is one of the oldest known ciphers. The encryption scheme is very simple — it involves shifting a letter of the alphabet by a fixed number of positions (in our case, 3). The transformation used is usually denoted as ROTN, where N is the shift, and ROT is short for the word "ROTATE," meaning "cyclic shift." Some non-alphabetic symbols (spaces, emoji symbols) might be encrypted incorrectly. The calculator encrypts the input text in Russian, Ukrainian, English, and Polish languages using all possible combinations of the Caesar cipher.</p>
     </div>
 
+    
+    <div class="cipher-block">
+        <div class="cipher-title">
+        <label class="ciphertext-title" for="ciphertext">Encrypt:</label>
+        </div>
+        <textarea placeholder="Enter Text..." maxlength="5000" name="ciphertext" id="ciphertext" ></textarea>
+    </div>
 
+        <button id="ciphertext-button">encrypt</button>
+
+       <div class="output-cipher-block">
+        <div class="output-decipher-title">
+       <label class="output-ciphertext-title" for="ciphertext-output">Output</label>
+       </div>
+       <textarea readonly id="ciphertext-output" name="ciphertext-output" ></textarea>
+        </div>
+
+    <div class="decipher-block">
+        <div class="decipher-title">
+            <label class="output-ciphertext-title" for="text">Decrypt</label>
+        </div>
+            <textarea placeholder="Enter Text..." maxlength="5000" name="text" id="deciphertext"></textarea>
+    </div> 
+        
+
+        <button id="deciphertext-button">decrypt</button>
+
+    <div class="output-decipher-block">
+        <div class="output-dephertext-title">
+            <label class="output-deciphertext-title" for="text">Output</label>
+        </div>
+        <textarea readonly id="deciphertext-output" ></textarea>
+    </div>
+    
+</div>
+    
+    <div class="main-content-2">
+        <p></p>
+    </div>
+    <div class="sosyhui">
+    </div>
+</main>
     <script src="/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  background-color: aliceblue;
+  margin: 0;
+  height: 100vh;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/*=====================Footer=====================*/
+.footer{
+    display: flex;
+   background-color:  rgb(41, 40, 40);
+   color: rgb(196, 200, 204);
+    
+  
+}
+
+.footer-logo{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    color:white;
+    text-decoration: none;
+    font-size: larger;
+    padding-top: 24px;
+    padding-left: 60px;
+    padding-right: 90px;
+    transition: all 0.4s;
+}
+.footer-logo:hover{
+    transform: scale(1.1);
+}
+
+/*=====================Main=======================*/
+
+main{
+display: flex;
+flex-direction: row;
+padding-left: 20px;
+box-sizing: border-box;
+}
+
+.description-h1{
+    padding-left: 40px;
+}
+
+
+
+#ciphertext{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 40px;
+}
+
+#ciphertext-output{
+   width: 100%;
+   height: 100px;
+   margin-bottom: 90px;
+   
+   
+}
+
+#deciphertext{
+ width: 100%;
+   height: 100px;
+   margin-bottom: 40px;
+   background-color: rgb(240, 240, 240);
+}
+
+#deciphertext-output{
+     width: 100%;
+   height: 100px;
+   margin-bottom: 40px;
+   background-color: rgb(240, 240, 240);
+}
+
+
+
+
+.main-content{
+flex: 1;
+
+
+    
+}
+.main-content-2{
+width: 20%;
+}
+
